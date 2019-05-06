@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [scroll.TestingClass]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="scroll.TestingClass">
+        <methods>
+          <include name="testing"/>
+          <include name="cerrar"/>
+          <include name="end"/>
+          <include name="begin"/>
+          <include name="valida_rsocial"/>
+        </methods>
+      </class> <!-- scroll.TestingClass -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [scroll.TestingClass] -->

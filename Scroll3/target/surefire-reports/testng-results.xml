@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="scroll.TestingClass" duration-ms="13096" started-at="2019-04-30T13:57:55Z" finished-at="2019-04-30T13:58:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="13096" started-at="2019-04-30T13:57:55Z" finished-at="2019-04-30T13:58:08Z">
+      <class name="scroll.TestingClass">
+        <test-method status="PASS" signature="testing()[pri:0, instance:scroll.TestingClass@4e04a765]" name="testing" is-config="true" duration-ms="11111" started-at="2019-04-30T13:57:55Z" finished-at="2019-04-30T13:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="begin()[pri:0, instance:scroll.TestingClass@4e04a765]" name="begin" is-config="true" duration-ms="113" started-at="2019-04-30T13:58:06Z" finished-at="2019-04-30T13:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+        <test-method status="PASS" signature="inicio()[pri:0, instance:scroll.TestingClass@4e04a765]" name="inicio" duration-ms="1237" started-at="2019-04-30T13:58:06Z" finished-at="2019-04-30T13:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicio -->
+        <test-method status="PASS" signature="cerrar(org.testng.ITestResult)[pri:0, instance:scroll.TestingClass@4e04a765]" name="cerrar" is-config="true" duration-ms="3" started-at="2019-04-30T13:58:07Z" finished-at="2019-04-30T13:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inicio status=SUCCESS method=TestingClass.inicio()[pri:0, instance:scroll.TestingClass@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrar -->
+        <test-method status="PASS" signature="valida_rsocial()[pri:0, instance:scroll.TestingClass@4e04a765]" name="valida_rsocial" duration-ms="166" started-at="2019-04-30T13:58:07Z" description="Valida Razon Social" finished-at="2019-04-30T13:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valida_rsocial -->
+        <test-method status="PASS" signature="cerrar(org.testng.ITestResult)[pri:0, instance:scroll.TestingClass@4e04a765]" name="cerrar" is-config="true" duration-ms="1" started-at="2019-04-30T13:58:08Z" finished-at="2019-04-30T13:58:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=valida_rsocial status=SUCCESS method=TestingClass.valida_rsocial()[pri:0, instance:scroll.TestingClass@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrar -->
+        <test-method status="PASS" signature="valida_rut()[pri:1, instance:scroll.TestingClass@4e04a765]" name="valida_rut" duration-ms="41" started-at="2019-04-30T13:58:08Z" description="Verifica formato del RUT" finished-at="2019-04-30T13:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valida_rut -->
+        <test-method status="PASS" signature="cerrar(org.testng.ITestResult)[pri:0, instance:scroll.TestingClass@4e04a765]" name="cerrar" is-config="true" duration-ms="1" started-at="2019-04-30T13:58:08Z" finished-at="2019-04-30T13:58:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=valida_rut status=SUCCESS method=TestingClass.valida_rut()[pri:1, instance:scroll.TestingClass@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrar -->
+        <test-method status="PASS" signature="end()[pri:0, instance:scroll.TestingClass@4e04a765]" name="end" is-config="true" duration-ms="391" started-at="2019-04-30T13:58:08Z" finished-at="2019-04-30T13:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- scroll.TestingClass -->
+    </test> <!-- Command line test -->
+  </suite> <!-- scroll.TestingClass -->
+</testng-results>
