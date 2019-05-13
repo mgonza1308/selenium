@@ -33,3 +33,7 @@ git checkout -- nombre_arch.ext
 --archivo con archivos para ignorar
 .gitignore
 dentro de el deben ir todos los nombres de archivos
+
+--subir al remote
+git remote add origin git@github.com:mgonza1308/selenium.git
+git push -u origin master
