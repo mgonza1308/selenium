@@ -1,0 +1,35 @@
+git config --global user.name "Mauricio Gonzalez"
+git config --global user.email "impgonzalez123@gmail.com"
+hacer checout a mi local
+git clone +ssh desde el bitbucked
+git add --all agregar cambios
+git commit - m comitea cambios locales 
+git commit -a -m "mensaje" # automatically stage tracked files. No hace falta 
+git add
+git push orgin (branch) subo cambios al servidor
+git pull bajo los cambios del servidor
+git status que es lo que tengo por subir
+git branch visualizar las ramas en que estoy
+git branch --all lista de las ramas
+git fetch  bajar las ramas Todas
+gitk interfaz visual git
+
+------
+--crear nueva rama y cambiar:
+git checkout -b nueva_rama
+Lo anterior es un atajo de:
+$ git branch iss53
+$ git checkout iss53
+
+--cambiar nombre rama
+git branch -m antes_rama nueva_rama
+
+--eliminar rama
+git branch -d antes_rama
+
+--volver archivo como etaba oroiginalmente:
+git checkout -- nombre_arch.ext
+
+--archivo con archivos para ignorar
+.gitignore
+dentro de el deben ir todos los nombres de archivos
