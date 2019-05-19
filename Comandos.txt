@@ -35,5 +35,5 @@ git checkout -- nombre_arch.ext
 dentro de el deben ir todos los nombres de archivos
 
 --subir al remote
-git remote add origin git@github.com:mgonza1308/selenium.git
+git remote add pb git@github.com:mgonza1308/selenium.git
 git push -u origin master
